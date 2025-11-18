@@ -1,7 +1,10 @@
+import os
+
 def fsInit():
-    f = open("fs.py","w")
-    f.write("names = []\ncont = []\nperm=[]\n")
-    f.close()
+    if not os.path.exists("fs.py"):
+        f = open("fs.py","w")
+        f.write("names = []\ncont = []\nperm=[]\n")
+        f.close()
 
 def fsWrite(fileName: str,fileCont: str,uid=0):
     import fs
