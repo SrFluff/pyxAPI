@@ -9,9 +9,7 @@ fs_exists = os.path.exists("fs.py")
 if fs_exists:
     os.remove("fs.py")
 
-f = open("fs.py","w")
-f.write("names = []\ncont = []\nperm = []\n")
-f.close()
+api.fsInit()
 
 api.fsWrite("test","test file",0)
 import fs
