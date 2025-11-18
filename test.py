@@ -96,6 +96,15 @@ if len(fs.names) == 0 and len(fs.cont) == 0 and len(fs.perm) == 0:
 else:
     print("12. NO")
 
+del fs
+
+api.fsWrite("test","chown test file",1)
+api.fsChown("test",0)
+if api.fsAbout("test")[2] == 0:
+    print("13. OK")
+else:
+    print("13. NO")
+
 os.remove("fs.py")
 
 print("\nEncryption tests\n")

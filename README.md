@@ -12,6 +12,7 @@ Filesystem functions\
 `fsCopy(fileName) - Makes a copy of a file`\
 `fsAbout(fileName) - Returns the: index, content length, and uid. All in a tuple`\
 `fsRemovable(fileName,uid) - Returns whether a uid can remove a file`\
+`fsChown(fileName,uid) - Changes the UID of a file`\
 \
 Encryption functions\
 `enEncrypt(string) - Returns an encrypted string`\
