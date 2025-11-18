@@ -9,7 +9,7 @@ Filesystem functions\
 `fsList() - Returns all the filenames in the system`\
 `fsRename(oldName,newName) - Renames a file`\
 `fsCopy(fileName) - Makes a copy of a file`\
-`fsAbout(fileName) - Returns the: index, content length, and uid. All in a tupple`\
+`fsAbout(fileName) - Returns the: index, content length, and uid. All in a tuple`\
 `fsRemovable(fileName,uid) - Returns whether a uid can remove a file`\
 \
 Encryption functions\
