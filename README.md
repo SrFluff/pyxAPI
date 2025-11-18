@@ -2,6 +2,7 @@
 The universal API, made for (not ready yet) PyX
 # Functions
 Filesystem functions\
+`fsInit() - Creates the fs.py file, needed to write to the system`
 `fsWrite(fileName,fileCont,uid) - Writes a file to the system`\
 `fsRemove(fileName,uid) - Removes a file if the uid is greater or equal`\
 `fsRead(fileName) - Reads a file's contents`\
@@ -16,10 +17,4 @@ Encryption functions\
 `enEncrypt(string) - Returns an encrypted string`\
 `enDecrypt(string) - Returns a decrypted string`
 # Prerequisites
-Make an `fs.py` file with the following content:
-```
-names = []
-cont = []
-perm = []
-```
 Keep `api.py` in the same directory as `fs.py`

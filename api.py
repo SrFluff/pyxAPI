@@ -1,3 +1,8 @@
+def fsInit():
+    f = open("fs.py","w")
+    f.write("names = []\ncont = []\nperm=[]\n")
+    f.close()
+
 def fsWrite(fileName: str,fileCont: str,uid=0):
     import fs
     names = fs.names
