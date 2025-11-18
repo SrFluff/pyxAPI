@@ -2,7 +2,7 @@
 The universal API, made for (not ready yet) PyX
 # Functions
 Filesystem functions\
-`fsInit() - Creates the fs.py file, needed to write to the system`
+`fsInit() - Creates the fs.py file, needed to write to the system`\
 `fsWrite(fileName,fileCont,uid) - Writes a file to the system`\
 `fsRemove(fileName,uid) - Removes a file if the uid is greater or equal`\
 `fsRead(fileName) - Reads a file's contents`\
