@@ -60,6 +60,7 @@ def fsRename(oldName, newName):
     import fs
     names = fs.names
     cont = fs.cont
+    perm = fs.perm
 
     if oldName in names and not newName in names:
         names[names.index(oldName)] = newName
